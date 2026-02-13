@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  list-style-type: none;
+  box-sizing: border-box;
+  
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+#main_nav_divs{
+  width: 100%;
+}
+#navigation{
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+.nav_div{
+  display: flex;
+  align-items: center;
+  
+}
+.navLinks{
+  color: black;
+  font-size: 1.1rem;
+}
+.nav_login_button{
+  width: 6rem;
+  padding: 7px;
+  background-color: rgb(230, 117, 5);
+  border: none;
+  color: white;
+  border-radius: 0.4rem;
+}
+.nav_div_login{
+  margin-top: 10px;
+}
+.chuks_header{
+  color: orange;
+  font-family:cursive;
+  font-family: Great Vibes, cursive;
+}

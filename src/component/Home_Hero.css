@@ -1,0 +1,27 @@
+#hero_section{
+    width: 100%;
+}
+#hero_div1{
+    width: 100%;
+    background-color: lightblue;
+    margin: auto;
+    padding: 10rem 1rem 10rem 2rem;
+}
+#Frist_hero_header{
+    font-size: 1.6rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+#second_hero_header{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.hero_button{
+    width: 17%;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+    color: white;
+}
