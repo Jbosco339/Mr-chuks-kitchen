@@ -1,16 +1,29 @@
-# React + Vite
+# Kitchen Chuks – Food Ordering & Customer Management System.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Kitchen Chuks is a responsive food ordering web application built to help digitize Mr. Chuks’ food business.  
+The platform allows customers to register, browse available meals, place orders, and track their activities online.
 
-Currently, two official plugins are available:
+This project was developed in collaboration with *TrueMinds Innovations Ltd* as a frontend task to convert a provided Figma UI design into a functional and user-friendly webpage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Objectives
 
-## React Compiler
+- Convert a Figma UI screen into a working web interface  
+- Maintain clean, readable, and well-structured frontend code  
+- Demonstrate proper documentation and development best practices  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Customer registration interface  
+- Meal browsing layout  
+- Food ordering flow  
+- Responsive design for different screen sizes  
+- Reusable React components  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+- React  
+- Vite  
+- JavaScript  
+- HTML5  
+- CSS3  
+
