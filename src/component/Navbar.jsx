@@ -14,11 +14,11 @@ function Navbar() {
         </div>
 
         <div className='nav_div'>
-            <Link to='/login' className='navLinks'>Explore</Link>
+            <Link to='/Explore' className='navLinks'>Explore</Link>
         </div>
 
         <div className='nav_div'>
-            <Link to='/Cart' className='navLinks'>My Order</Link>
+            <Link to='/Orders' className='navLinks'>My Order</Link>
         </div>
 
         <div className='nav_div'>
@@ -26,7 +26,7 @@ function Navbar() {
         </div>
 
         <div className='nav_div_login '>
-            <Link to='/Register'><button className='nav_login_button'>Login</button></Link>
+            <Link to='/Login'><button className='nav_login_button'>Login</button></Link>
         </div>
 
     </nav>
