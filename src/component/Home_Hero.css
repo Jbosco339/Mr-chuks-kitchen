@@ -1,3 +1,4 @@
+
 #hero_section{
     width: 100%;
     background-color: lightgray;
@@ -76,20 +77,54 @@
 /* CHEF's SPECIAL DISH STYLES BEGINS HERE */
 #chefs_specials{
     width: 100%;
+    
+}
+.chefs_specials_title12{
+    width: 15%;
+    margin-top: 6rem;
+    padding-bottom: 1.5rem;
 }
 #specialDish_container{
     width: 90%;
-    background-color: gray;
+    background-color: lightgray;
     margin: auto;
 }
 #chefs_specials_dishes{
-    width: 95%;
-    background-color: lightblue;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 .chefs_dishes{
-    width: 31%;
-    background-color: lightgrey;
+    width: 30%;
+    background-color: white;
+    margin: 1rem auto;
+    border-radius: 10px;
 }
 .specialD_imgss{
     width: 100%;
+}
+.special_dish_img{
+   /* border-radius: 5px; */
+}
+
+.dish_description1{
+    font-size: 14px;
+    padding-left: 1rem;
+}
+.dish_title11{
+    padding-left: 1rem;
+}
+.specialDish_priceAndBtn{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1rem 1rem 1rem;
+}
+.specialDish_price{
+    color: rgb(242, 119, 75);
+}
+.specialDish_btn{
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    background-color: rgb(242, 119, 75);
+    border: none;
+    border-radius: 5px;
 }

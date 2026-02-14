@@ -6,6 +6,7 @@ import image3 from '../assets/images/ImgB.png';
 import image4 from '../assets/images/ImgC.png';
 import image5 from '../assets/images/ImgD.png';
 import image6 from '../assets/images/ImgE.png';
+import image7 from '../assets/images/ImgF.png';
 
 function Home_Hero() {
   return (
@@ -64,17 +65,109 @@ function Home_Hero() {
 
         <div id='chefs_specials'>
             <article id='specialDish_container'>
-                 <h3 id='chefs_specials_titl'>Chef's Specials</h3>
+                 <h3 className='chefs_specials_title12'>Chef's Specials</h3>
             <div id='chefs_specials_dishes'>
 
                 <div className='chefs_dishes'>
                     <div className='special_dish_img'>
                         <img src={image5} alt="" className='specialD_imgss'/>
                     </div>
-                    <div className='special_dish_description'>2</div>
-                    <div className='specialDish_price&Btn'>
-                        <div className='specialDish_price'>3</div>
-                        <div className='specialDishBtn'>4</div>
+                    <div className='special_dish_description'>
+                        <h3 className='dish_title11'>Spicy Tilapia Pepper Soup</h3>
+                        <p className='dish_description1'>
+                            A comforting and spicy soup with tender tilapia fish, a true Nigerian delicacy
+                        </p>
+                    </div>
+                    <div className='specialDish_priceAndBtn'>
+                        <div className='specialDish_price'>N3,500</div>
+                        <div className='specialDishBtn'>
+                            <button className='specialDish_btn'>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div className='chefs_dishes'>
+                    <div className='special_dish_img'>
+                        <img src={image1} alt="" className='specialD_imgss'/>
+                    </div>
+                    <div className='special_dish_description'>
+                        <h3 className='dish_title11'>Spicy Tilapia Pepper Soup</h3>
+                        <p className='dish_description1'>
+                            A comforting and spicy soup with tender tilapia fish, a true Nigerian delicacy
+                        </p>
+                    </div>
+                    <div className='specialDish_priceAndBtn'>
+                        <div className='specialDish_price'>N3,500</div>
+                        <div className='specialDishBtn'>
+                            <button className='specialDish_btn'>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div className='chefs_dishes'>
+                    <div className='special_dish_img'>
+                        <img src={image1} alt="" className='specialD_imgss'/>
+                    </div>
+                    <div className='special_dish_description'>
+                        <h3 className='dish_title11'>Spicy Tilapia Pepper Soup</h3>
+                        <p className='dish_description1'>
+                            A comforting and spicy soup with tender tilapia fish, a true Nigerian delicacy
+                        </p>
+                    </div>
+                    <div className='specialDish_priceAndBtn'>
+                        <div className='specialDish_price'>N3,500</div>
+                        <div className='specialDishBtn'>
+                            <button className='specialDish_btn'>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div className='chefs_dishes'>
+                    <div className='special_dish_img'>
+                        <img src={image1} alt="" className='specialD_imgss'/>
+                    </div>
+                    <div className='special_dish_description'>
+                        <h3 className='dish_title11'>Spicy Tilapia Pepper Soup</h3>
+                        <p className='dish_description1'>
+                            A comforting and spicy soup with tender tilapia fish, a true Nigerian delicacy
+                        </p>
+                    </div>
+                    <div className='specialDish_priceAndBtn'>
+                        <div className='specialDish_price'>N3,500</div>
+                        <div className='specialDishBtn'>
+                            <button className='specialDish_btn'>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div className='chefs_dishes'>
+                    <div className='special_dish_img'>
+                        <img src={image6} alt="" className='specialD_imgss'/>
+                    </div>
+                    <div className='special_dish_description'>
+                        <h3 className='dish_title11'>Spicy Tilapia Pepper Soup</h3>
+                        <p className='dish_description1'>
+                            A comforting and spicy soup with tender tilapia fish, a true Nigerian delicacy
+                        </p>
+                    </div>
+                    <div className='specialDish_priceAndBtn'>
+                        <div className='specialDish_price'>N3,500</div>
+                        <div className='specialDishBtn'>
+                            <button className='specialDish_btn'>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div className='chefs_dishes'>
+                    <div className='special_dish_img'>
+                        <img src={image7} alt="" className='specialD_imgss'/>
+                    </div>
+                    <div className='special_dish_description'>
+                        <h3 className='dish_title11'>Spicy Tilapia Pepper Soup</h3>
+                        <p className='dish_description1'>
+                            A comforting and spicy soup with tender tilapia fish, a true Nigerian delicacy
+                        </p>
+                    </div>
+                    <div className='specialDish_priceAndBtn'>
+                        <div className='specialDish_price'>N3,500</div>
+                        <div className='specialDishBtn'>
+                            <button className='specialDish_btn'>Add to cart</button>
+                        </div>
                     </div>
                 </div>
                 
