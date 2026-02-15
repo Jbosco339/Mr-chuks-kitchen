@@ -36,12 +36,12 @@ body{
   border: none;
   color: white;
   border-radius: 0.4rem;
+  cursor: pointer;
 }
 .nav_div_login{
   margin-top: 10px;
 }
 .chuks_header{
   color: orange;
-  font-family:cursive;
   font-family: Great Vibes, cursive;
 }

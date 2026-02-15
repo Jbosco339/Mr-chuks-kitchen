@@ -44,6 +44,7 @@
     border: none;
     background-color: rgb(255, 106, 0);
     color: white;
+    cursor: pointer;
 }
 /* HERO DIV TWO STYLES BEGINS HERE */
 #hero_div2_imgss{
@@ -80,9 +81,11 @@
     
 }
 .chefs_specials_title12{
-    width: 15%;
+    width: 95%;
     margin-top: 6rem;
     padding-bottom: 1.5rem;
+    text-align: center;
+    font-size: 18px;
 }
 #specialDish_container{
     width: 90%;
@@ -102,11 +105,8 @@
 }
 .specialD_imgss{
     width: 100%;
+    cursor: pointer;
 }
-.special_dish_img{
-   /* border-radius: 5px; */
-}
-
 .dish_description1{
     font-size: 14px;
     padding-left: 1rem;
@@ -127,4 +127,8 @@
     background-color: rgb(242, 119, 75);
     border: none;
     border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
 }
+

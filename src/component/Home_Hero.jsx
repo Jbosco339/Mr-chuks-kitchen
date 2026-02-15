@@ -8,6 +8,7 @@ import image5 from '../assets/images/ImgD.png';
 import image6 from '../assets/images/ImgE.png';
 import image7 from '../assets/images/ImgF.png';
 
+
 function Home_Hero() {
   return (
     <section id='hero_section'>
@@ -173,6 +174,11 @@ function Home_Hero() {
                 
             </div>
             </article>
+        </div>
+        <div id='footer_div1'>
+            <h2 id='footer_intro'>Introducing Our New Menu Additions!</h2>
+            <p id='footer_paragraph'>Explore exciting new dishes, crafted with the freshest <br /> ingredients and authentic Nigeria flavors. Limited time <br /> offer!</p>
+            <button id='footer_btn'>Discover what's new</button>
         </div>
     </section>
     

@@ -1,0 +1,69 @@
+#explore_hero{
+    width: 100%;
+    background-color: lightgray;
+}
+#hero_div{
+    width: 100%;
+    background-image: url(../assets/images/image16.png);
+    color: white;
+    height: 90vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 12rem 3rem;
+    line-height: 2;
+}
+#hero_div::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+#hero_div h3, p {
+    position: relative;
+    z-index: 1;
+}
+#popular_section{
+    width: 95%;
+    background-color: lightgray;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.popular_section_dishes{
+    width: 31%;
+    background-color: white;
+    border-radius: 15px;
+    margin: 20px auto;
+}
+.popular_dish_imgsss{
+    width: 100%;
+}
+.dish_namezz{
+    padding: 12px 20px;
+}
+.mealss_description1{
+    padding: 0px 20px;
+    font-size: 14px;
+}
+.priceAnd_Add{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 20px;
+}
+.AddSign{
+    width: 30px;
+    background-color: rgb(28, 224, 198);
+    border-radius: 50%;
+}
+#jollof_rice_ent{
+    display: flex;
+}
+#jollof_first_div{
+    width: 95%;
+    margin: auto;
+}
+.categoryTitles{
+    padding-left: 3rem;
+}

@@ -8,6 +8,7 @@ import './App.css'
 import Navbar from './component/Navbar.jsx';
 import Explore from './pages/Explore.jsx';
 import Orders from './pages/Orders.jsx';
+import Footer from './component/Footer.jsx';
 
 function App() {
   
@@ -25,6 +26,7 @@ function App() {
         <Route path='/explore' element={<Explore/>}/>
         <Route path='/Orders' element={<Orders/>}/>
       </Routes>
+      <Footer/>
     </Router>
     
   )
