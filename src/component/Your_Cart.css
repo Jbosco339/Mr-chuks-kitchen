@@ -1,0 +1,88 @@
+#cart_section{
+    width: 100%;
+    background-color: lightgray;
+    padding: 2rem 0rem;
+}
+#cart_article{
+    width: 90%;
+    margin: auto;
+    background-color: lightgray;
+}
+
+#cart_innerDivs{
+    width: 100%;
+    background-color: white;
+    padding-bottom: 1rem;
+    border-radius: 5px;
+}
+.catrBoxes_holder{
+    width: 99%;
+    padding: 5px;
+    border: 1px solid rgb(233, 230, 230);
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+}
+.cart_imgss{
+    width: 13%;
+    margin-right: 10px;
+}
+.cart_nameAndDescrip{
+    line-height: 1.5;
+}
+#dish_description1{
+    font-size: 14px;
+}
+.addSub{
+    width: 20px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.price_of_item{
+    color: orange;
+}
+.cancel{
+    width: 30px;
+    cursor: pointer;
+
+}
+#cartRicePlantain{
+    width: 120px;
+    height: 110px;
+}
+
+#mini_icons_holder{
+    width: 60%;
+    display: flex;
+    justify-content:space-evenly;
+}
+#closetag{
+    width: 40px;
+    background-color: orange;
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+}
+.addsubtract4{
+    width: 100%;
+    background-color: lightgray;
+    line-height: 1;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 3px;
+}
+#cart_header{
+    padding: 3px;
+}
+#add_moreDish{
+    color: rgb(48, 165, 237);
+    padding: 1rem 1rem;
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+}
+

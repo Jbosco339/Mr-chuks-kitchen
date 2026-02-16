@@ -1,5 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
+// const location = useLocation();
+
 
 function Navbar() {
   return (
@@ -10,11 +12,15 @@ function Navbar() {
         </div>
 
         <div className='nav_div'>
-            <Link to='/' className='navLinks'>Home</Link>
+            <Link to='/' className='navLinks'>
+                Home
+            </Link>
         </div>
 
         <div className='nav_div'>
-            <Link to='/Explore' className='navLinks'>Explore</Link>
+            <Link to='/Explore' className='navLinks'>
+            Explore
+            </Link>
         </div>
 
         <div className='nav_div'>

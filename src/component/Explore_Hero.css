@@ -24,6 +24,27 @@
     position: relative;
     z-index: 1;
 }
+#explore_chukss{
+    font-size: 30px;
+}
+#menu_category{
+    width: 90%;
+    /* border-radius: 20px; */
+    margin:30px auto;
+}
+#menu_category_header{
+    background-color: white;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#select_box{
+    width: 100%;
+    padding: 5px;
+    border: 0.5px solid rgb(235, 137, 101);
+    font-size: 17px;
+}
+
 #popular_section{
     width: 95%;
     background-color: lightgray;
@@ -40,6 +61,7 @@
 .popular_dish_imgsss{
     width: 100%;
 }
+
 .dish_namezz{
     padding: 12px 20px;
 }
@@ -54,8 +76,7 @@
 }
 .AddSign{
     width: 30px;
-    background-color: rgb(28, 224, 198);
-    border-radius: 50%;
+    cursor: pointer;
 }
 #jollof_rice_ent{
     display: flex;
@@ -66,4 +87,14 @@
 }
 .categoryTitles{
     padding-left: 3rem;
+}
+.popular_price{
+    color: rgb(242, 110, 61);
+}
+.amala_Gbegiri{
+    padding-top: 25px;
+}
+.amaladivx{
+    padding-bottom: 4rem;
+    
 }
