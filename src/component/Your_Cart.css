@@ -42,7 +42,7 @@
 }
 
 .price_of_item{
-    color: orange;
+    color: #fe7a41;
 }
 .cancel{
     width: 30px;
@@ -59,13 +59,13 @@
     display: flex;
     justify-content:space-evenly;
 }
-#closetag{
-    width: 40px;
-    background-color: orange;
-    font-size: 16px;
-    line-height: 1;
-    text-align: center;
-    cursor: pointer;
+.AddsSignInner{ 
+    width: 20px;
+    background-color: lightgray;
+}
+.minus_signNew{
+    width: 20px;
+    background-color: lightgray;
 }
 .addsubtract4{
     width: 100%;
@@ -84,5 +84,136 @@
     font-size: 17px;
     font-weight: 400;
     cursor: pointer;
+}
+.close_imaging4{
+    width: 20px;
+    height: 20px;
+}
+
+/* ORDER SUMMARY STYLING BEGINS HERE */
+#orderSummary_section{
+    width: 100%;
+    background-color: lightgray;
+}
+#Summar_div1{
+    background-color: lightgray;
+    padding-bottom: 30px;
+}
+#inner_summary_div{
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    padding: 20px 10px;
+}
+#orderSumHeader{
+    margin-bottom: 30px;
+}
+.inputBox{
+    width: 80%;
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid rgb(189, 187, 187);
+    border-radius: 3px;
+    margin: 5px 10px 20px 0px;
+}
+.Login_btn{
+    padding: 12px;
+    width: 18%;
+    background-color: #fe7a41;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.totaling{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+.summary_details{
+    line-height: 2;
+}
+#total_div{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    font-weight: 700;
+}
+#deliverAnd_pickup{
+    display: flex;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.deliver1{
+    width: 50%;
+    background-color: #fe7a41;
+    padding: 9px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.Pickup2{
+    width: 50%;
+    background-color: rgb(201, 199, 199);
+    padding: 9px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#orderSummary_TextArea{
+    width: 100%;
+    height: 80px;
+    margin: 10px 0px;
+}
+#checkout_button{
+    width: 100%;
+    padding: 11px;
+    margin: 10px 0px;
+    background-color: #fe7a41;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+#textArea_label{
+    font-weight: 600;
+    color: rgb(69, 68, 68);
+}
+
+/* DELIVERY DETAILS STYLING BEGINS HERE */
+
+#sec_deliveryDetails{
+    width: 100%;
+    background-color: lightgray;
+}
+#delivery_div{
+    width: 55%;
+    background-color: white;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+#address_div{
+    width: 98%;
+    height: 95px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    margin: 10px 5px;
+    border-radius: 5px;
+}
+.chamgeAddress{
+    color: rgb(28, 105, 220);
+}
+.input_header{
+    margin: 10px 5px;
+}
+#home_addresses{
+    font-size: 14px;
 }
 

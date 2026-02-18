@@ -2,6 +2,9 @@ import React from 'react'
 import './Your_Cart.css'
 import { Link } from 'react-router-dom';
 import RicePlantain from '../assets/images/ImgE.png';
+import removeImage from '../assets/images/remove.png';
+import addSignss from '../assets/images/plusSign556t.png';
+import MinusSign from '../assets/images/minusSignNew.png';
 
 function Your_Cart() {
   return (
@@ -20,16 +23,20 @@ function Your_Cart() {
                     </div>
                     <div id='mini_icons_holder'>
                         <div className='addSub'>
-                         <h2 className='addsubtract4'>+</h2> 
+                         {/* <h2 className='addsubtract4'>+</h2>  */}
+                         <img src={addSignss} alt="" className='AddsSignInner'/>
                     </div>
                     <div className='noOf_item'> 
                         <h3>1</h3>
                         </div>
                     <div className='addSub'>
-                        <h2 className='addsubtract4'>--</h2>
+                        {/* <h2 className='addsubtract4'>--</h2> */}
+                        <img src={MinusSign} alt="" className='minus_signNew'/>
                         </div>
                     <div className='price_of_item'><h3>N3,200</h3></div>
-                    <div className='cancel'><h2 id='closetag'>X</h2></div>
+                    <div className='cancel'>
+                        <img src={removeImage} alt="" className='close_imaging4'/>
+                    </div>
                     </div>
                 </div>
                 <div className='catrBoxes_holder'>
@@ -42,16 +49,20 @@ function Your_Cart() {
                     </div>
                     <div id='mini_icons_holder'>
                         <div className='addSub'>
-                         <h2 className='addsubtract4'>+</h2> 
+                         {/* <h2 className='addsubtract4'>+</h2>  */}
+                         <img src={addSignss} alt="" className='AddsSignInner'/>
                     </div>
                     <div className='noOf_item'> 
                         <h3>1</h3>
                         </div>
                     <div className='addSub'>
-                        <h2 className='addsubtract4'>--</h2>
+                        {/* <h2 className='addsubtract4'>--</h2> */}
+                        <img src={MinusSign} alt="" className='minus_signNew'/>
                         </div>
                     <div className='price_of_item'><h3>N3,200</h3></div>
-                    <div className='cancel'><h2 id='closetag'>X</h2></div>
+                    <div className='cancel'>
+                        <img src={removeImage} alt="" className='close_imaging4'/>
+                    </div>
                     </div>
                 </div>
                 <div className='catrBoxes_holder'>
@@ -64,16 +75,20 @@ function Your_Cart() {
                     </div>
                     <div id='mini_icons_holder'>
                         <div className='addSub'>
-                         <h2 className='addsubtract4'>+</h2> 
+                         {/* <h2 className='addsubtract4'>+</h2>  */}
+                         <img src={addSignss} alt="" className='AddsSignInner'/>
                     </div>
                     <div className='noOf_item'> 
                         <h3>1</h3>
                         </div>
                     <div className='addSub'>
-                        <h2 className='addsubtract4'>--</h2>
+                        {/* <h2 className='addsubtract4'>--</h2> */}
+                        <img src={MinusSign} alt="" className='minus_signNew'/>
                         </div>
                     <div className='price_of_item'><h3>N3,200</h3></div>
-                    <div className='cancel'><h2 id='closetag'>X</h2></div>
+                    <div className='cancel'>
+                        <img src={removeImage} alt="" className='close_imaging4'/>
+                    </div>
                     </div>
                 </div>
                 <div className='catrBoxes_holder'>
@@ -86,16 +101,20 @@ function Your_Cart() {
                     </div>
                     <div id='mini_icons_holder'>
                         <div className='addSub'>
-                         <h2 className='addsubtract4'>+</h2> 
+                         {/* <h2 className='addsubtract4'>+</h2>  */}
+                         <img src={addSignss} alt="" className='AddsSignInner'/>
                     </div>
                     <div className='noOf_item'> 
                         <h3>1</h3>
                         </div>
                     <div className='addSub'>
-                        <h2 className='addsubtract4'>--</h2>
+                        {/* <h2 className='addsubtract4'>--</h2> */}
+                        <img src={MinusSign} alt="" className='minus_signNew'/>
                         </div>
                     <div className='price_of_item'><h3>N3,200</h3></div>
-                    <div className='cancel'><h2 id='closetag'>X</h2></div>
+                    <div className='cancel'>
+                        <img src={removeImage} alt="" className='close_imaging4'/>
+                    </div>
                     </div>
                 </div>
                 <Link>

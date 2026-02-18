@@ -1,5 +1,6 @@
 #footer_section{
     width: 100%;
+    
 }
 #footer_div1{
     width: 100%;
@@ -34,7 +35,7 @@
     padding: 0.5rem 1.5rem 0.5rem 1.5rem;
     border-radius: 5px;
     border: none;
-    background-color: rgb(242, 119, 75);
+    background-color: #fe7a41;
     color: white;
     font-weight: 700;
     cursor: pointer;
@@ -56,7 +57,7 @@
     color: white;
 }
 #chuks_kitchen_footer{
-    color: orange;
+    color: #fe7a41;
   font-family: Great Vibes, cursive;
 }
 #chuks_kit_paragraph{

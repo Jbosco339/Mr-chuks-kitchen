@@ -41,7 +41,7 @@
 #select_box{
     width: 100%;
     padding: 5px;
-    border: 0.5px solid rgb(235, 137, 101);
+    border: 0.5px solid #fe7a41;
     font-size: 17px;
 }
 
@@ -89,7 +89,7 @@
     padding-left: 3rem;
 }
 .popular_price{
-    color: rgb(242, 110, 61);
+    color: #fe7a41;
 }
 .amala_Gbegiri{
     padding-top: 25px;
