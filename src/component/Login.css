@@ -1,0 +1,19 @@
+#login_section{
+    width: 100%;
+}
+#loginPage_inner{
+    width: 70%;
+    background-color: lightseagreen;
+    margin: auto;
+    display: flex;
+}
+.background_divs{
+    background-image: url(/src/assets/images/ImgH.png);
+    text-align: center;
+    width: 48%;
+    
+}
+.login_div{
+    width: 48%;
+    background-color: lightsalmon;
+}

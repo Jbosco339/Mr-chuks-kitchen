@@ -22,20 +22,23 @@ function Your_Cart() {
                         <p id='dish_description1'>With Plantain, extra pepper sauce</p>
                     </div>
                     <div id='mini_icons_holder'>
-                        <div className='addSub'>
-                         {/* <h2 className='addsubtract4'>+</h2>  */}
+                        <div className='add_Nos_subtract'>
+                            <div className='addSub'>
                          <img src={addSignss} alt="" className='AddsSignInner'/>
-                    </div>
-                    <div className='noOf_item'> 
+                        </div>
+                        <div className='noOf_item'> 
                         <h3>1</h3>
                         </div>
-                    <div className='addSub'>
-                        {/* <h2 className='addsubtract4'>--</h2> */}
+                        <div className='addSub'>
                         <img src={MinusSign} alt="" className='minus_signNew'/>
                         </div>
-                    <div className='price_of_item'><h3>N3,200</h3></div>
-                    <div className='cancel'>
+                        </div>
+
+                    <div className='priceAndExit_div'>
+                        <div className='price_of_item'><h3>N3,200</h3></div>
+                        <div className='cancel'>
                         <img src={removeImage} alt="" className='close_imaging4'/>
+                        </div>
                     </div>
                     </div>
                 </div>
@@ -48,20 +51,23 @@ function Your_Cart() {
                         <p id='dish_description1'>With Plantain, extra pepper sauce</p>
                     </div>
                     <div id='mini_icons_holder'>
-                        <div className='addSub'>
-                         {/* <h2 className='addsubtract4'>+</h2>  */}
+                        <div className='add_Nos_subtract'>
+                            <div className='addSub'>
                          <img src={addSignss} alt="" className='AddsSignInner'/>
-                    </div>
-                    <div className='noOf_item'> 
+                        </div>
+                        <div className='noOf_item'> 
                         <h3>1</h3>
                         </div>
-                    <div className='addSub'>
-                        {/* <h2 className='addsubtract4'>--</h2> */}
+                        <div className='addSub'>
                         <img src={MinusSign} alt="" className='minus_signNew'/>
                         </div>
-                    <div className='price_of_item'><h3>N3,200</h3></div>
-                    <div className='cancel'>
+                        </div>
+
+                    <div className='priceAndExit_div'>
+                        <div className='price_of_item'><h3>N3,200</h3></div>
+                        <div className='cancel'>
                         <img src={removeImage} alt="" className='close_imaging4'/>
+                        </div>
                     </div>
                     </div>
                 </div>
@@ -74,20 +80,23 @@ function Your_Cart() {
                         <p id='dish_description1'>With Plantain, extra pepper sauce</p>
                     </div>
                     <div id='mini_icons_holder'>
-                        <div className='addSub'>
-                         {/* <h2 className='addsubtract4'>+</h2>  */}
+                        <div className='add_Nos_subtract'>
+                            <div className='addSub'>
                          <img src={addSignss} alt="" className='AddsSignInner'/>
-                    </div>
-                    <div className='noOf_item'> 
+                        </div>
+                        <div className='noOf_item'> 
                         <h3>1</h3>
                         </div>
-                    <div className='addSub'>
-                        {/* <h2 className='addsubtract4'>--</h2> */}
+                        <div className='addSub'>
                         <img src={MinusSign} alt="" className='minus_signNew'/>
                         </div>
-                    <div className='price_of_item'><h3>N3,200</h3></div>
-                    <div className='cancel'>
+                        </div>
+
+                    <div className='priceAndExit_div'>
+                        <div className='price_of_item'><h3>N3,200</h3></div>
+                        <div className='cancel'>
                         <img src={removeImage} alt="" className='close_imaging4'/>
+                        </div>
                     </div>
                     </div>
                 </div>
@@ -100,23 +109,27 @@ function Your_Cart() {
                         <p id='dish_description1'>With Plantain, extra pepper sauce</p>
                     </div>
                     <div id='mini_icons_holder'>
-                        <div className='addSub'>
-                         {/* <h2 className='addsubtract4'>+</h2>  */}
+                        <div className='add_Nos_subtract'>
+                            <div className='addSub'>
                          <img src={addSignss} alt="" className='AddsSignInner'/>
-                    </div>
-                    <div className='noOf_item'> 
+                        </div>
+                        <div className='noOf_item'> 
                         <h3>1</h3>
                         </div>
-                    <div className='addSub'>
-                        {/* <h2 className='addsubtract4'>--</h2> */}
+                        <div className='addSub'>
                         <img src={MinusSign} alt="" className='minus_signNew'/>
                         </div>
-                    <div className='price_of_item'><h3>N3,200</h3></div>
-                    <div className='cancel'>
+                        </div>
+
+                    <div className='priceAndExit_div'>
+                        <div className='price_of_item'><h3>N3,200</h3></div>
+                        <div className='cancel'>
                         <img src={removeImage} alt="" className='close_imaging4'/>
+                        </div>
                     </div>
                     </div>
                 </div>
+                
                 <Link>
                     <p id='add_moreDish'> + Add more items from Chuks Kitchen</p>
                 </Link>

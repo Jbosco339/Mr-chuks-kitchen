@@ -89,6 +89,16 @@
     width: 20px;
     height: 20px;
 }
+.priceAndExit_div{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.add_Nos_subtract{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
 
 /* ORDER SUMMARY STYLING BEGINS HERE */
 #orderSummary_section{
@@ -189,18 +199,20 @@
 #sec_deliveryDetails{
     width: 100%;
     background-color: lightgray;
+    padding-bottom: 40px;
 }
 #delivery_div{
     width: 55%;
     background-color: white;
     margin: auto;
     padding: 20px 0px;
+    border-radius: 10px;
 }
 
 #address_div{
     width: 98%;
     height: 95px;
-    border: 1px solid gray;
+    border: 1px solid lightgray;
     display: flex;
     justify-content: space-between;
     padding: 10px 5px;
@@ -209,6 +221,7 @@
 }
 .chamgeAddress{
     color: rgb(28, 105, 220);
+    font-size: 15px;
 }
 .input_header{
     margin: 10px 5px;
@@ -216,4 +229,91 @@
 #home_addresses{
     font-size: 14px;
 }
+.delivery_Address{
+    width: 98%;
+    padding: 3px 1px 25px 3px;
+    margin: 10px 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+#delivery_Instruction12{
+    width: 98%;
+    padding: 3px 1px 35px 3px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
 
+/* Payment method selection style */
+#payment_div{
+    width: 100%;
+}
+#payment_inner_div{
+    width: 55%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 5px;
+    margin:20px auto;
+}
+#pay_with{
+    margin: 10px 0px;
+}
+.options{
+    display: flex;
+    gap: 6rem;
+    margin-bottom: 1.5rem;
+}
+.cardNumber{
+    font-size: 14px;
+}
+.option_labels{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    color: gray;
+}
+.cardNo_box{
+    padding: 10px;
+    width: 98%;
+    margin: 5px 0px;
+}
+.expireyAnd_cvv{
+    display: flex;
+    width: 98%;
+    
+}
+.expireAnd_cvv_innerDiv{
+    width: 100%;
+}
+.expiryDate_input{
+    width: 98%;
+    padding: 8px;
+    margin: 10px 0px;
+}
+#expiry_dateInput{
+    margin-right: 10px;
+}
+.saveCardDetails{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    color: rgb(91, 90, 90);
+    margin-bottom: 20px;
+}
+#finalPayment_btn{
+    width: 98%;
+    padding: 8px;
+    background-color: #fe7a41;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+.finalCondition{
+    color: gray;
+    font-size: 13px;
+}
