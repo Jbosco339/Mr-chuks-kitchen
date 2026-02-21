@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import menuIcon from '../assets/images/menu1.png';
 // const location = useLocation();
 
 
@@ -33,6 +34,10 @@ function Navbar() {
 
         <div className='nav_div_login '>
             <Link to='/Login'><button className='nav_login_button'>Login</button></Link>
+        </div>
+
+        <div className='nav_div_menuBurger'>
+            <img src={menuIcon} alt=""  id='menuImage'/>
         </div>
 
     </nav>

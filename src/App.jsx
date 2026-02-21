@@ -4,6 +4,7 @@ import Login from "./pages/Login.jsx"
 import Register from "./pages/Register.jsx"
 import Menu from "./pages/Menu.jsx"
 import './App.css'
+import './MediaQuerries.css'
 import Navbar from './component/Navbar.jsx';
 import Explore from './pages/Explore.jsx';
 import Orders from './pages/Orders.jsx';

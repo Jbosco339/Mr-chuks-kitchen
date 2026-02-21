@@ -13,12 +13,22 @@ body{
 #main_nav_divs{
   width: 100%;
 }
+/* .nav_contents{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
 #navigation{
-  width: 95%;
+  width: 100%;
   margin: auto;
   display: flex;
   justify-content: space-between;
   padding: 8px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: white;
 }
 .nav_div{
   display: flex;
@@ -45,3 +55,9 @@ body{
   color: #fe7a41;
   font-family: Great Vibes, cursive;
 }
+#menuImage{
+  width: 20px;
+  cursor: pointer;
+  display: none;
+}
+

@@ -19,7 +19,7 @@ function Your_Cart() {
                     </div>
                     <div className='cart_nameAndDescrip'>
                         <h3 className='dishes_headings'>Jollof Rice & Fried Chicken</h3>
-                        <p id='dish_description1'>With Plantain, extra pepper sauce</p>
+                        <p className='dish_description1'>With Plantain, extra pepper sauce</p>
                     </div>
                     <div id='mini_icons_holder'>
                         <div className='add_Nos_subtract'>
@@ -48,7 +48,7 @@ function Your_Cart() {
                     </div>
                     <div className='cart_nameAndDescrip'>
                         <h3 className='dishes_headings'>Jollof Rice & Fried Chicken</h3>
-                        <p id='dish_description1'>With Plantain, extra pepper sauce</p>
+                        <p className='dish_description1'>With Plantain, extra pepper sauce</p>
                     </div>
                     <div id='mini_icons_holder'>
                         <div className='add_Nos_subtract'>
@@ -77,7 +77,7 @@ function Your_Cart() {
                     </div>
                     <div className='cart_nameAndDescrip'>
                         <h3 className='dishes_headings'>Jollof Rice & Fried Chicken</h3>
-                        <p id='dish_description1'>With Plantain, extra pepper sauce</p>
+                        <p className='dish_description1'>With Plantain, extra pepper sauce</p>
                     </div>
                     <div id='mini_icons_holder'>
                         <div className='add_Nos_subtract'>
@@ -106,7 +106,7 @@ function Your_Cart() {
                     </div>
                     <div className='cart_nameAndDescrip'>
                         <h3 className='dishes_headings'>Jollof Rice & Fried Chicken</h3>
-                        <p id='dish_description1'>With Plantain, extra pepper sauce</p>
+                        <p className='dish_description1'>With Plantain, extra pepper sauce</p>
                     </div>
                     <div id='mini_icons_holder'>
                         <div className='add_Nos_subtract'>
