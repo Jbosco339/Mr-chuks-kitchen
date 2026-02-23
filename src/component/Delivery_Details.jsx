@@ -5,19 +5,19 @@ function Delivery_Details() {
   return (
     <section id='sec_deliveryDetails'>
         <div id='delivery_div'>
-            <h2 className='input_header'>Delivery Details</h2> <hr />
+            <h2 className='input_header' id='main_delevery_head'>Delivery Details</h2> <hr />
 
             <div id='address_div'>
-                <p id='home_addresses'>Home:123 Main Street <br /> Victoria Island Lagos <br /> Apt 4B, Opposite Mega Plaza </p>
+                <p id='home_addresses'>Home:123 Main Street Victoria Island Lagos <br /> Apt 4B, Opposite Mega Plaza </p>
                 <Link className='chamgeAddress'>Change Address</Link>
             </div>
-            <h3 className='input_header'>Delivery Time</h3>
+            <p className='input_header'>Delivery Time</p>
             <input type="text" placeholder='ASAP(30-25)'  className='delivery_Address'/>
 
-            <h3 className='input_header'>Delivery Instructions (Optional)</h3>
+            <p className='input_header'>Delivery Instructions (Optional)</p>
             <input type="text" placeholder='E.g leave at the front door, knock twice.....' id='delivery_Instruction12' />
 
-            <h3 className='input_header'>Contact Address</h3>
+            <p className='input_header'>Contact Address</p>
             <input type="text" placeholder='+234 801 234 5678'  className='delivery_Address'/>
         </div>
 

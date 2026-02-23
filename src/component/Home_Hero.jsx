@@ -7,6 +7,7 @@ import image4 from '../assets/images/ImgC.png';
 import image5 from '../assets/images/ImgD.png';
 import image6 from '../assets/images/ImgE.png';
 import image7 from '../assets/images/ImgF.png';
+import search_icon from '../assets/images/search.png';
 
 
 function Home_Hero() {
@@ -16,7 +17,18 @@ function Home_Hero() {
             <h3 id='Frist_hero_header'>The Heart of Nigerian Home <br /> Cooking</h3>
             <p id='second_hero_header'>Handcrafted with passion, delivered with care.</p>
             <button className='hero_button'>Discover what's new</button>
+
+              
+
+
         </div>
+          {/* SEARCH BAR */}
+            <div className='search_container'>
+                <div className='search_box'>
+                    <img src={search_icon} alt="" className='searcIcon_img'/>
+                    <input type="text" placeholder='what are you craving for today' />
+                </div>
+            </div>
             {/* POPULAR CATEGORIES SECTION */}
         <div id='hero_div2'>
             <h2 id='hero_div2_title'>Popular Categories</h2>

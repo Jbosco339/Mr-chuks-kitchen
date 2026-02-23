@@ -60,12 +60,22 @@ body{
   cursor: pointer;
   display: flex;
 }
+.navLinks{
+  text-decoration: none;
+  color: #333;
+  padding: 8px 12px;
+  transition: 0.3s;
+}
+.navLinks:active{
+  color: #fe7a41;
+  font-weight: 600;
+}
 
 /* HAMBURGER DROPDOWN BEGINS HERE */
 .hamburger-menu{
     position: absolute;
-    top: 70px;
-    right: 20px;
+    top: 50px;
+    right: 5px;
     background: white;
     flex-direction: column;
     padding: 15px;
@@ -74,23 +84,29 @@ body{
     transition: transform 0.5s ease;
     display: flex;
     z-index: 1000;
-    width: 60%;
+    width: 50%;
     height: 50vh;
-    background-color: #0f766e;
+    background-color: #d28462;
     border-radius: 20px;
 }
-.hamburger-menu #login_page{
-  font-size: 20px;
-    width: 80%;
-    border-radius: 10px;
-    text-align: center;
-    margin: 15px 1px 0px 30px;
+
+#close_img{
+  width: 20px;
 }
-.hamburger-menu #account_page{
-    width: 80%;
-    padding: 10px;
-    /* margin: 15px 1px; */
-    margin: 15px 1px 0px 30px;
+.anchor_tags{
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+.anchor_tags:hover{
+  background-color: lightsalmon;
+  color: rgb(34, 34, 34);
+}
+.nav_div_menuBurger{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 

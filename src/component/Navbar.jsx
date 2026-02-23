@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import menuIcon from '../assets/images/menu1.png';
 import MenuDrop_down from './MenuDrop_down';
 
@@ -17,31 +17,40 @@ function Navbar() {
     <div id='main_nav_divs'>
         <nav id='navigation'>
         <div className='home_chuks-hero nav_div'>
-            <Link to='/' className='chuks_header'><h2>Chuks Kitchen</h2></Link>
+            <NavLink to='/' className='chuks_header'><h2>Chuks Kitchen</h2></NavLink>
         </div>
+        {menuOpen && (<div className='overlay' onClick={closeMenu}></div>)}
 
         <div className='nav_div'>
-            <Link to='/' className='navLinks'>
+            <NavLink to='/' end className={({isActive}) =>
+                isActive ? "navLinks active" : "navLinks"
+            }>
                 Home
-            </Link>
+            </NavLink>
         </div>
 
         <div className='nav_div'>
-            <Link to='/Explore' className='navLinks'>
+            <NavLink to='/explore' end className={({isActive}) =>
+                isActive ? "navLinks active" : "navLinks"
+            }>
             Explore
-            </Link>
+            </NavLink>
         </div>
 
         <div className='nav_div'>
-            <Link to='/Orders' className='navLinks'>My Order</Link>
+            <NavLink to='/orders' end className={({isActive}) =>
+                isActive ? "navLinks active" : "navLinks"
+            }>My Order</NavLink>
         </div>
 
         <div className='nav_div'>
-            <Link to='/Register' className='navLinks'>Account</Link>
+            <NavLink to='/register' end className={({isActive}) =>
+                isActive ? "navLinks active" : "navLinks"
+            }>Account</NavLink>
         </div>
 
         <div className='nav_div_login '>
-            <Link to='/Login'><button className='nav_login_button'>Login</button></Link>
+            <NavLink to='/Login'><button className='nav_login_button'>Login</button></NavLink>
         </div>
 
         <div className='nav_div_menuBurger' onClick={() =>  setMenuOpen(true)}>
