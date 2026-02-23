@@ -1,5 +1,5 @@
 import React from 'react'
-import './Your_Cart.css'
+// import './Your_Cart.css'
 import removeImage from '../assets/images/remove.png';
 
 function Order_Summary() {
@@ -8,7 +8,7 @@ function Order_Summary() {
         <div id='Summar_div1'>
             <div id='inner_summary_div'>
             <h3 id='orderSumHeader'>Order Summary <hr/></h3>
-            <label htmlFor="" >Add a promo Code </label> <br />
+            <p htmlFor="" >Add a promo Code </p> <br />
             <input type="text" className='inputBox' placeholder='Enter Code here' />
             <button className='Login_btn'>Login</button>
             <div className='totaling'>
@@ -38,7 +38,7 @@ function Order_Summary() {
                 <div className='Pickup2'><p>Pick up</p></div>
             </div>
             <label id='textArea_label'>Special Instruction for Restaurant</label><br />
-            <textarea name="" id="orderSummary_TextArea" placeholder='E.g no Onion, food is too spicy, food is too hot, food is tasty'></textarea>
+            <textarea name="" id="orderSummary_TextArea" placeholder='E.g no Onion, food is too spicy, food is too hot, hhhhhhhhhhh food is tasty'></textarea>
 
             <button id='checkout_button'>Proceed to Checkout</button>
                 

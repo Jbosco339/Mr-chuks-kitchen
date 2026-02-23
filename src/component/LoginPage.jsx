@@ -1,5 +1,5 @@
 import React from 'react'
-import './Login.css'
+// import './Login.css'
 import facebookImg from '../assets/images/facebook.png';
 import googleImg from '../assets/images/google.png';
 import hideEye from '../assets/images/hidden.png';

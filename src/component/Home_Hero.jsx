@@ -1,5 +1,5 @@
 import React from 'react'
-import './Home_Hero.css'
+// import './Home_Hero.css'
 import image1 from '../assets/images/Image7.png';
 import image2 from '../assets/images/ImgA.png';
 import image3 from '../assets/images/ImgB.png';

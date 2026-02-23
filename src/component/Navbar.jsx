@@ -1,10 +1,18 @@
-import React from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import React, { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import menuIcon from '../assets/images/menu1.png';
-// const location = useLocation();
+import MenuDrop_down from './MenuDrop_down';
+
 
 
 function Navbar() {
+    const [menuOpen, setMenuOpen] = useState(false);
+    const closeMenu = () => {
+        setMenuOpen (false);
+    };
+    useEffect (() =>{
+        document.body.style.overflow = menuOpen ? 'hidden' : 'auto'
+    },[menuOpen]);
   return (
     <div id='main_nav_divs'>
         <nav id='navigation'>
@@ -36,11 +44,12 @@ function Navbar() {
             <Link to='/Login'><button className='nav_login_button'>Login</button></Link>
         </div>
 
-        <div className='nav_div_menuBurger'>
+        <div className='nav_div_menuBurger' onClick={() =>  setMenuOpen(true)}>
             <img src={menuIcon} alt=""  id='menuImage'/>
         </div>
 
     </nav>
+    <MenuDrop_down menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
     </div>
   )
 }

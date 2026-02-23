@@ -1,5 +1,5 @@
 import React from 'react'
-import './Explore_Hero.css'
+// import './Explore_Hero.css'
 import image1 from '../assets/images/Image7.png';
 import plusSign from '../assets/images/plus.png';
 import leafPlate from '../assets/images/Image10.png';
@@ -32,10 +32,13 @@ function Explore_Hero() {
             <h3 className='categoryTitles'>Popular</h3>
         <div id='popular_section'>
             <div className='popular_section_dishes'>
+
                 <div className='popular_imgs'>
                     <img src={image1} alt="" className='popular_dish_imgsss'/>
                 </div>
-                <h3 className='dish_namezz'>Jollog Rice & Fried Chicken</h3>
+
+                <div className='dishes_details32'>
+                    <h3 className='dish_namezz'>Jollog Rice & Fried Chicken</h3>
                 <p className='mealss_description1'>Our signature Jollof Rice, served with cripsy fried chicken and plantain</p>
                 <div className='priceAnd_Add'>
                     <div className='popular_price'>N3,500</div>
@@ -43,12 +46,15 @@ function Explore_Hero() {
                         <img src={plusSign} alt="" className='AddSign'/>
                     </div>
                 </div>
+                </div>
             </div>
             <div className='popular_section_dishes'>
                 <div className='popular_imgs'>
                     <img src={soupFufu} alt="" className='popular_dish_imgsss ebaegussi'/>
                 </div>
-                <h3 className='dish_namezz'>Egusi Soup & Pounded Yam</h3>
+
+               <div className='dishes_details32'>
+                 <h3 className='dish_namezz'>Egusi Soup & Pounded Yam</h3>
                 <p className='mealss_description1'>
                     Rich and savory Egusi soup with assorted meats, paired with freshly pounded yam.
                     </p>
@@ -58,12 +64,16 @@ function Explore_Hero() {
                         <img src={plusSign} alt="" className='AddSign'/>
                     </div>
                 </div>
+               </div>
             </div>
+
             <div className='popular_section_dishes'>
                 <div className='popular_imgs'>
                     <img src={leafPlate} alt="" className='popular_dish_imgsss'/>
                 </div>
-                <h3 className='dish_namezz'>Pounded Yam & Edikaikong</h3>
+
+                <div className='dishes_details32'>
+                    <h3 className='dish_namezz'>Pounded Yam & Edikaikong</h3>
                 <p className='mealss_description1'>
                     Traditional pounded yam with rich, leafy Edikaikong soup.
                     </p>
@@ -73,12 +83,15 @@ function Explore_Hero() {
                         <img src={plusSign} alt="" className='AddSign'/>
                     </div>
                 </div>
+                </div>
             </div>
             <div className='popular_section_dishes'>
                 <div className='popular_imgs'>
                     <img src={pepperSnail} alt="" className='popular_dish_imgsss'/>
                 </div>
-                <h3 className='dish_namezz'>Peppered Snail</h3>
+
+                <div className='dishes_details32'>
+                    <h3 className='dish_namezz'>Peppered Snail</h3>
                 <p className='mealss_description1'>
                     Spicy and savory peppered snail, perfect as a starter
                     </p>
@@ -88,13 +101,15 @@ function Explore_Hero() {
                         <img src={plusSign} alt="" className='AddSign'/>
                     </div>
                 </div>
+                </div>
             </div>
             <div className='popular_section_dishes'>
                 <div className='popular_imgs'>
                     <img src={tilapia} alt="" className='popular_dish_imgsss'/>
                 </div>
-                <h3 className='dish_namezz'>Grilled Tilapia Fish</h3>
-                <p className='mealss_description1'>
+                <div className='dishes_details32'>
+                    <h3 className='dish_namezz'>Grilled Tilapia Fish</h3>
+                    <p className='mealss_description1'>
                     Whole grilled tilapia seasoned with our special spices
                     </p>
                 <div className='priceAnd_Add'>
@@ -103,12 +118,15 @@ function Explore_Hero() {
                         <img src={plusSign} alt="" className='AddSign'/>
                     </div>
                 </div>
+                </div>
+
             </div>
             <div className='popular_section_dishes'>
                 <div className='popular_imgs'>
                     <img src={image1} alt="" className='popular_dish_imgsss'/>
                 </div>
-                <h3 className='dish_namezz'>Jollog Rice & Fried Chicken</h3>
+               <div className='dishes_details32'>
+                 <h3 className='dish_namezz'>Jollog Rice & Fried Chicken</h3>
                 <p className='mealss_description1'>Our signature Jollof Rice, served with cripsy fried chicken and plantain</p>
                 <div className='priceAnd_Add'>
                     <div className='popular_price'>N3,500</div>
@@ -116,6 +134,7 @@ function Explore_Hero() {
                         <img src={plusSign} alt="" className='AddSign'/>
                     </div>
                 </div>
+               </div>
             </div>
         </div>
 
@@ -123,23 +142,45 @@ function Explore_Hero() {
         <div id='jollof_first_div'>
             <div id='jollof_rice_ent'>
             <div className='popular_section_dishes'>
+
                 <div className='popular_imgs'>
                     <img src={image1} alt="" className='popular_dish_imgsss'/>
                 </div>
-                <h3 className='dish_namezz'>Jollog Rice & Fried Chicken</h3>
+
+                <div className='dishes_details32'>
+                    <h3 className='dish_namezz'>Jollog Rice & Fried Chicken</h3>
                 <p className='mealss_description1'>Our signature Jollof Rice, served with cripsy fried chicken and plantain</p>
                 <div className='priceAnd_Add'>
                     <div className='popular_price'>N3,500</div>
                     <div className='popular_plus_sign'>
                         <img src={plusSign} alt="" className='AddSign'/>
                     </div>
+                </div>
+                </div>
+
+            </div>
+            <div className='popular_section_dishes'>
+                <div className='popular_imgs'>
+                    <img src={image1} alt="" className='popular_dish_imgsss'/>
+                </div>
+
+                <div className='dishes_details32'>
+                    <h3 className='dish_namezz'>Jollog Rice & Fried Chicken</h3>
+                <p className='mealss_description1'>Our signature Jollof Rice, served with cripsy fried chicken and plantain</p>
+                <div className='priceAnd_Add'>
+                    <div className='popular_price'>N3,500</div>
+                    <div className='popular_plus_sign'>
+                        <img src={plusSign} alt="" className='AddSign'/>
+                    </div>
+                </div>
                 </div>
             </div>
             <div className='popular_section_dishes'>
                 <div className='popular_imgs'>
                     <img src={image1} alt="" className='popular_dish_imgsss'/>
                 </div>
-                <h3 className='dish_namezz'>Jollog Rice & Fried Chicken</h3>
+                <div className='dishes_details32'>
+                    <h3 className='dish_namezz'>Jollog Rice & Fried Chicken</h3>
                 <p className='mealss_description1'>Our signature Jollof Rice, served with cripsy fried chicken and plantain</p>
                 <div className='priceAnd_Add'>
                     <div className='popular_price'>N3,500</div>
@@ -147,18 +188,6 @@ function Explore_Hero() {
                         <img src={plusSign} alt="" className='AddSign'/>
                     </div>
                 </div>
-            </div>
-            <div className='popular_section_dishes'>
-                <div className='popular_imgs'>
-                    <img src={image1} alt="" className='popular_dish_imgsss'/>
-                </div>
-                <h3 className='dish_namezz'>Jollog Rice & Fried Chicken</h3>
-                <p className='mealss_description1'>Our signature Jollof Rice, served with cripsy fried chicken and plantain</p>
-                <div className='priceAnd_Add'>
-                    <div className='popular_price'>N3,500</div>
-                    <div className='popular_plus_sign'>
-                        <img src={plusSign} alt="" className='AddSign'/>
-                    </div>
                 </div>
             </div>
          </div>
@@ -171,7 +200,9 @@ function Explore_Hero() {
                 <div className='popular_imgs'>
                     <img src={amala} alt="" className='popular_dish_imgsss'/>
                 </div>
-                <h3 className='dish_namezz'>Amala with Gbegiri & Ewedu</h3>
+
+                <div className='dishes_details32'>
+                    <h3 className='dish_namezz'>Amala with Gbegiri & Ewedu</h3>
                 <p className='mealss_description1'>
                     Classic Amala served with Gbegiri (beans) and Ewedu (jute leaf) soup.
                 </p>
@@ -181,12 +212,14 @@ function Explore_Hero() {
                         <img src={plusSign} alt="" className='AddSign'/>
                     </div>
                 </div>
+                </div>
             </div>
             <div className='popular_section_dishes'>
                 <div className='popular_imgs'>
                     <img src={okroSoup} alt="" className='popular_dish_imgsss'/>
                 </div>
-                <h3 className='dish_namezz'>Fufu & Okra Soup <br /> (Fish)</h3>
+                <div className='dishes_details32'>
+                    <h3 className='dish_namezz'>Fufu & Okra Soup (Fish)</h3>
                 <p className='mealss_description1'>Light Fufu served with fresh okra soup and tilapia fish</p>
                 <div className='priceAnd_Add'>
                     <div className='popular_price'>N3,300</div>
@@ -194,12 +227,14 @@ function Explore_Hero() {
                         <img src={plusSign} alt="" className='AddSign'/>
                     </div>
                 </div>
+                </div>
             </div>
             <div className='popular_section_dishes'>
-                <div className='popular_imgs'>
-                    <img src={okroSoup} alt="" className='popular_dish_imgsss'/>
+                <div className='popular_imgs '>
+                    <img src={okroSoup} alt="" className='popular_dish_imgsss' id='okra_soup'/>
                 </div>
-                <h3 className='dish_namezz'>Fufu & Okra Soup <br /> (Fish)</h3>
+                <div className='dishes_details32'>
+                    <h3 className='dish_namezz'>Fufu & Okra Soup  (Fish)</h3>
                 <p className='mealss_description1'>
                     Light Fufu served with fresh okra soup and tilapia fish
                     </p>
@@ -208,6 +243,7 @@ function Explore_Hero() {
                     <div className='popular_plus_sign'>
                         <img src={plusSign} alt="" className='AddSign'/>
                     </div>
+                </div>
                 </div>
             </div>
          </div>

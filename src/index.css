@@ -1,0 +1,839 @@
+/* EXPLORE STYLES DONE HERE */
+#explore_hero{
+    width: 100%;
+    background-color: lightgray;
+}
+#hero_div{
+    width: 100%;
+    background-image: url("/image16.png");
+    color: white;
+    height: 90vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 12rem 3rem;
+    line-height: 2;
+}
+#hero_div::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+#hero_div h3, p {
+    position: relative;
+    z-index: 1;
+}
+#explore_chukss{
+    font-size: 30px;
+}
+#menu_category{
+    width: 90%;
+    /* border-radius: 20px; */
+    margin:30px auto;
+}
+#menu_category_header{
+    background-color: white;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#select_box{
+    width: 100%;
+    padding: 5px;
+    border: 0.5px solid #fe7a41;
+    font-size: 17px;
+}
+
+#popular_section{
+    width: 95%;
+    background-color: lightgray;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.popular_section_dishes{
+    width: 31%;
+    background-color: white;
+    border-radius: 15px;
+    margin: 20px auto;
+}
+.popular_dish_imgsss{
+    width: 100%;
+}
+
+.dish_namezz{
+    padding: 12px 20px;
+}
+.mealss_description1{
+    padding: 0px 20px;
+    font-size: 14px;
+}
+.priceAnd_Add{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 20px;
+}
+.AddSign{
+    width: 30px;
+    cursor: pointer;
+}
+#jollof_rice_ent{
+    display: flex;
+}
+#jollof_first_div{
+    width: 95%;
+    margin: auto;
+}
+.categoryTitles{
+    padding-left: 3rem;
+}
+.popular_price{
+    font-weight: 800;
+    color: #fe7a41;
+}
+.amala_Gbegiri{
+    padding-top: 25px;
+}
+.amaladivx{
+    padding-bottom: 4rem;
+    
+}
+
+
+
+
+/* FOOTER STYLES BEGAN HERE */
+#footer_section{
+    width: 100%;
+    
+}
+#footer_div1{
+    width: 100%;
+    margin: auto;
+    padding: 10rem 0.5rem 5rem 5rem ;
+    background-image: url(./image16.png);
+    color: white;
+    height: 90vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#footer_div1::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+#footer_div1 h2, p, button{
+    position: relative;
+    z-index: 1;
+}
+#footer_intro{
+    font-size: 25px;
+}
+#footer_paragraph{
+    font-size: 16px;
+    padding: 15px 1px 10px 1px ;
+}
+#footer_btn{
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #fe7a41;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#footer_div2{
+    width: 100%;
+    background-color: rgb(97, 48, 8);
+    padding: 5rem 0rem 2rem 0rem ;
+}
+#footer_notes{
+    width: 90%;
+    display: flex;
+    margin:  auto;
+}
+.footer_info{
+    width: 25%;
+    margin: 1px;
+    color: white;
+}
+#chuks_kitchen_footer{
+    color: #fe7a41;
+  font-family: Great Vibes, cursive;
+}
+#chuks_kit_paragraph{
+    color: white;
+    line-height: 2;
+}
+.footer_infoss{
+    font-size: 13px;
+    line-height: 2.3;
+    color: rgb(190, 188, 188);
+}
+#upArrow_and_rights{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4rem;
+}
+.footer_right_note{
+    font-size: 13px;
+    line-height: 2.3;
+    color: rgb(190, 188, 188);
+   
+}
+#arrowup_img{
+    width: 30px;
+    cursor: pointer;
+}
+#footer_socials{
+    padding-left: 30px;
+}
+
+
+
+
+/* CART PAGE STYLES BEGAN HERE */
+#cart_section{
+    width: 100%;
+    background-color: lightgray;
+    padding: 2rem 0rem;
+}
+#cart_article{
+    width: 90%;
+    margin: auto;
+    background-color: lightgray;
+}
+
+#cart_innerDivs{
+    width: 100%;
+    background-color: white;
+    padding-bottom: 1rem;
+    margin-top: 60px;
+    border-radius: 5px;
+}
+.catrBoxes_holder{
+    width: 99%;
+    padding: 5px;
+    border: 1px solid rgb(233, 230, 230);
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+}
+.dish_description_icons{
+    width: 100%;
+    display: flex;
+}
+.cart_imgss{
+    width: 15%;
+}
+.cart_nameAndDescrip{
+    width: 25%;
+    line-height: 1.5;
+    margin-left: 15px;
+}
+#dish_description1{
+    font-size: 14px;
+}
+.addSub{
+    width: 20px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.price_of_item{
+    color: #fe7a41;
+}
+.cancel{
+    width: 30px;
+    cursor: pointer;
+
+}
+.cartRicePlantain{
+    width: 120px;
+    height: 110px;
+}
+
+#mini_icons_holder{
+    width: 60%;
+    display: flex;
+    justify-content:space-evenly;
+}
+.AddsSignInner{ 
+    width: 20px;
+    background-color: lightgray;
+}
+.minus_signNew{
+    width: 20px;
+    background-color: lightgray;
+}
+.addsubtract4{
+    width: 100%;
+    background-color: lightgray;
+    line-height: 1;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 3px;
+}
+#cart_header{
+    padding: 3px;
+}
+#add_moreDish{
+    color: rgb(48, 165, 237);
+    padding: 1rem 1rem;
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.close_imaging4{
+    width: 20px;
+    height: 20px;
+}
+.priceAndExit_div{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.add_Nos_subtract{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 60px; */
+}
+
+
+
+
+/* ORDER SUMMARY STYLING BEGINS HERE */
+#orderSummary_section{
+    width: 100%;
+    background-color: lightgray;
+}
+#Summar_div1{
+    background-color: lightgray;
+    padding-bottom: 30px;
+}
+#inner_summary_div{
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    padding: 20px 10px;
+}
+#orderSumHeader{
+    margin-bottom: 30px;
+}
+.inputBox{
+    width: 80%;
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid rgb(189, 187, 187);
+    border-radius: 3px;
+    margin: 5px 10px 20px 0px;
+}
+.Login_btn{
+    padding: 12px;
+    width: 18%;
+    background-color: #fe7a41;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.totaling{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+.summary_details{
+    line-height: 2;
+}
+#total_div{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    font-weight: 700;
+}
+#deliverAnd_pickup{
+    display: flex;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.deliver1{
+    width: 50%;
+    background-color: #fe7a41;
+    padding: 9px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.Pickup2{
+    width: 50%;
+    background-color: rgb(201, 199, 199);
+    padding: 9px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#orderSummary_TextArea{
+    width: 100%;
+    height: 80px;
+    margin: 10px 0px;
+}
+#checkout_button{
+    width: 100%;
+    padding: 11px;
+    margin: 10px 0px;
+    background-color: #fe7a41;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+#textArea_label{
+    font-weight: 600;
+    color: rgb(69, 68, 68);
+}
+
+
+
+/* DELIVERY DETAILS STYLING BEGINS HERE */
+
+#sec_deliveryDetails{
+    width: 100%;
+    background-color: lightgray;
+    padding-bottom: 40px;
+}
+#delivery_div{
+    width: 55%;
+    background-color: white;
+    margin: auto;
+    padding: 20px 0px;
+    border-radius: 10px;
+}
+
+#address_div{
+    width: 98%;
+    height: 80px;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    margin: 10px 5px;
+    border-radius: 5px;
+}
+.chamgeAddress{
+    color: rgb(28, 105, 220);
+    font-size: 15px;
+}
+.input_header{
+    margin: 10px 5px;
+}
+#home_addresses{
+    font-size: 14px;
+}
+.delivery_Address{
+    width: 98%;
+    padding: 3px 1px 25px 3px;
+    margin: 10px 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+#delivery_Instruction12{
+    width: 98%;
+    padding: 3px 1px 35px 3px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+
+
+
+/* Payment method selection style */
+#payment_div{
+    width: 100%;
+}
+#payment_inner_div{
+    width: 55%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 5px;
+    margin:20px auto;
+}
+#pay_with{
+    margin: 10px 0px;
+}
+.options{
+    display: flex;
+    gap: 6rem;
+    margin-bottom: 1.5rem;
+}
+.cardNumber{
+    font-size: 14px;
+}
+.option_labels{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    color: gray;
+}
+.cardNo_box{
+    padding: 10px;
+    width: 98%;
+    margin: 5px 0px;
+}
+.expireyAnd_cvv{
+    display: flex;
+    width: 98%;
+    
+}
+.expireAnd_cvv_innerDiv{
+    width: 100%;
+}
+.expiryDate_input{
+    width: 98%;
+    padding: 8px;
+    margin: 10px 0px;
+}
+#expiry_dateInput{
+    margin-right: 10px;
+}
+.saveCardDetails{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    color: rgb(91, 90, 90);
+    margin-bottom: 20px;
+}
+#finalPayment_btn{
+    width: 98%;
+    padding: 8px;
+    background-color: #fe7a41;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+.finalCondition{
+    color: gray;
+    font-size: 13px;
+}
+
+
+/* HOME HERO STYLING BEGAN HERE */
+
+#hero_section{
+    width: 100%;
+    background-color: lightgray;
+}
+#hero_div1{
+    width: 100%;
+    margin: auto;
+    padding: 10rem 1rem 10rem 2rem;
+    color: white;
+    background-image: url('/hero.png');
+    height: 90vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#hero_div1::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+#hero_div1 h3, p, button{
+    position: relative;
+    z-index: 1;
+}
+#Frist_hero_header{
+    font-size: 1.6rem;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#second_hero_header{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.hero_button{
+    width: 17%;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fe7a41;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* HERO DIV TWO STYLES BEGINS HERE */
+#hero_div2_imgss{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#hero_div2_title{
+    color: rgb(68, 68, 68);
+    padding: 5rem 0px 1rem 0px;
+    text-align: center;
+}
+.hero_div2_imgs{
+    width: 29%;
+    background-color: white;
+    /* margin: 1rem 2.2rem 1rem 1rem; */
+    margin: 1.1rem auto;
+    border-radius: 10px;
+}
+.div2_images{
+    width: 100%;
+    height: 60%;
+}
+.mealName{
+   text-align: center;
+    margin-top: 10%;
+}
+
+
+
+
+/* CHEF's SPECIAL DISH STYLES BEGINS HERE */
+#chefs_specials{
+    width: 100%;
+    
+}
+.chefs_specials_title12{
+    width: 95%;
+    margin-top: 6rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    font-size: 18px;
+}
+#specialDish_container{
+    width: 90%;
+    background-color: lightgray;
+    margin: auto;
+}
+#chefs_specials_dishes{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.chefs_dishes{
+    width: 30%;
+    background-color: white;
+    margin: 1rem auto;
+    border-radius: 10px;
+}
+.specialD_imgss{
+    width: 100%;
+    cursor: pointer;
+}
+.dish_description1{
+    font-size: 14px;
+    padding-left: 1rem;
+}
+.dish_title11{
+    padding-left: 1rem;
+}
+.specialDish_priceAndBtn{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1rem 1rem 1rem;
+}
+.specialDish_price{
+    color: #fe7a41;
+}
+.specialDish_btn{
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    background-color: rgb(242, 119, 75);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+
+/* LOGIN PAGE STYLED HERE */
+#login_section{
+    width: 100%;
+    background-color: lightgray;
+    /* padding: 5rem 0rem 0rem 0rem ; */
+}
+#loginPage_inner{
+    width: 90%;
+    background-color: white;
+    margin: auto;
+    display: flex;
+}
+.backgroundImg_div{
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/src/assets/images/ImgH.png);
+    text-align: center;
+    height: 100vh;
+    position: relative;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.backgroundImg_div::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(204, 102, 0, 0.8);
+}
+.backgroundImg_div h3, p{
+    position: relative;
+    z-index: 1;
+}
+.nigerian_meals_header{
+    margin-bottom: 10px;
+}
+
+#text_hold_div{
+    color: white;
+}
+
+
+.login_div{
+    width: 58%;
+    background-color: white;
+    display: flex;
+    /* margin: auto; */
+    margin: 6rem 3.5rem;
+}
+#login_form_holder{
+    width: 100%;
+}
+#chuks_kitchen_login{
+    line-height: 2;
+    color: rgb(255, 123, 0);
+    text-align: center;
+}
+#accountLoginHeader{
+    font-size: 20px;
+    text-align: center;
+}
+#loginForm{
+    padding: 5px;
+}
+.login_input{
+    width: 100%;
+    padding: 10px 0px 8px 3rem;
+    margin: 5px 0px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+}
+.input_labels{
+    color: gray;
+}
+#forgot_pass{
+    float: right;
+    font-size: 10px;
+    color: rgb(29, 114, 154);
+}
+.continue_button{
+    width: 100%;
+    padding: 13px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px 0px;
+    background-color:rgb(255, 119, 0) ;
+    color: white;
+}
+#continue_with{
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+}
+.socials_buttonFG{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid lightgray ;
+    margin: 10px 0px;
+    background-color: white;
+    border-radius: 5px;
+    color: gray;
+}
+#create_account{
+    font-size: 13px;
+    text-align: center;
+}
+#create_account22{
+    color: rgb(0, 106, 255);
+    cursor: pointer;
+}
+.login_social_img{
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+
+.password_wrapper{
+    width: 100%;
+    position: relative;
+
+}
+#hide_eye{
+    width: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity:50%;
+}
+#email_logo{
+    position: absolute;
+    left: 16px;
+    width: 18px;
+    height: 18px;
+    top: 50%;
+    opacity:50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+#passLockImg{
+    width: 20px;
+    position: absolute;
+    left: 16px;
+    width: 18px;
+    height: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    opacity:50%;
+}

@@ -14,7 +14,7 @@
         font-size: 25px;
     }
     #footer_btn{
-        font-size: 25px;
+        font-size: 18px;
     }
     .backgroundImg_div{
         height: 580px;
@@ -63,39 +63,278 @@
     .chefs_dishes{
         width: 100%;
     }
+    .div2_images{
+        height: 85%;
+    }
+    .mealName{
+        margin-top: 10px;
+    }
+    .mealName h3{
+        font-weight: 500;
+    }
+    .hero_button{
+        width: 40%;
+    }
+    .dish_description1{
+        padding: 0px 10px;
+    }
+     .catrBoxes_holder{
+        margin-bottom: 15px;
+    }
+    .specialDish_btn{
+        padding: 1rem 1.9rem 1rem 1.9rem;
+    }
+    .specialDish_price{
+        display: flex;
+        align-items: center;
+    }
+    #footer_notes{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer_info{
+        width: 30%; 
+    }
+    .footer_info h3{
+        margin-top: 20px;
+    }
+   #popular_section{
+    flex-direction: column;
+   }
+   .popular_section_dishes{
+    width: 100% ;
+    display: flex;
+   }
+   .popular_dish_imgsss{
+    width: 100%;
+    height: 100%;
+   }
+   .popular_imgs{
+    width: 45%;
+   }
+   .dishes_details32{
+    width: 100%;
+   }
+   #jollof_rice_ent{
+    flex-direction: column;
+   }
+   #mini_icons_holder{
+    width: 100% !important;
+    flex-direction: column;
+    
+   }
+   .dish_description_icons{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .cart_imgss{
+    width: 30%;
+   }
+   .add_Nos_subtract{
+    width: 90%;
+    padding-top: 10px;
+    justify-content: space-between;
+   }
+   .priceAndExit_div{
+    width: 90% !important;
+    padding-top: 10px;
+   }
+   .dish_description_icons{
+    margin-left: 10px;
+   }
+   .dish_description1{
+    line-height: 2;
+   }
+   .cart_nameAndDescrip{
+    width: 90%;
+    margin: auto;
+   }
+   .inputBox{
+    width: 45% !important;
+   }
+   .Login_btn{
+    width: 45% !important;
+   }
+   .chamgeAddress{
+    
+    font-size: 11px !important;
+   }   
+   .input_header{
+    font-size: 15px;
+   }
+   #inner_summary_div{
+    width: 90% ;
+   }
+   #footer_intro{
+    font-size: 40px;
+   }
+   #footer_div1{
+    padding: 30% 1px 0px 15px;
+    
+   }
+   #footer_paragraph{
+    font-size: 20px;
+   }
+   .dishes_headings{
+    width: 100%;
+   }
+   #delivery_div{
+    width: 90%;
+   }
+   #payment_inner_div{
+    width: 90%;
+   }
+   .backgroundImg_div{
+    display: none;
+   }
+   #loginPage_inner{
+    width: 100%;
+   }
+   .login_div{
+    width: 100%;
+   }
     
 }
 /* For iphone 14 proMax */
 @media screen and (max-width:430px) {
-    
+    .hero_button{
+        width: 55%;
+    }
+    #footer_intro{
+        font-size: 35px;
+    }
+    .dish_namezz{
+        font-size: 18px;
+    }
+    .dishes_headings{
+        font-size: 16px;
+    }
+    .priceAnd_Add{
+        margin: 5px 20px;
+    }
+    .amala_Gbegiri{
+        padding: 1px;
+    }
+    .dish_description1{
+        font-size: 13px;
+    }
+    .price_of_item{
+        margin-left: 10px;
+    }
+    .addSub{
+        margin-left: 15px;
+    }
+    #hero_div1{
+        padding:  10rem 1rem 10rem 0.5rem;
+    }
+    #second_hero_header{
+        font-size: 19px;
+    }
+    #footer_paragraph{
+        font-size: 25px;
+    }
+   
 }
 /* For iphone XR */
 @media screen and (max-width:414px) {
-    
+    .cardNo_box{
+        width: 90%;
+    }
+    .dish_namezz{
+        font-size: 17px;
+    }
+    .priceAnd_Add{
+        margin: 5px 20px;
+    }
+    .amala_Gbegiri{
+        padding: 1px;
+    }
+    .footer_info{
+        width: 40%;
+    }
 }
 /* For Samsung Galaxy S20 Ultra */
 @media screen and (max-width:412px) {
-    
+    .dish_description1{
+        font-size: 12px;
+    }
+    .dishes_headings{
+        font-size: 14px;
+    }
+    .price_of_item{
+        margin-left: 15px;
+    }
 }
 
+/* For redmi 10 */
 @media screen and (max-width:393px) {
+    .dish_namezz{
+        font-size: 15px;
+    }
+    #second_hero_header{
+        font-size: 18px;
+    }
     
 }
 /* For iphone 12 Pro */
 @media screen and (max-width:390px) {
-    
+    #second_hero_header{
+        font-size: 17px;
+    }
 }
 /* For iphone X */
 @media screen and (max-width:375px) {
-    
+    .dish_description1{
+        font-size: 11px;
+    }
+    .addSub{
+        margin-left: 25px;
+    }
+    .price_of_item{
+        margin-left: 25px;
+    }
+    .catrBoxes_holder{
+        margin-bottom: 15px;
+    }
+    .options{
+        gap: 4rem;
+    }
 }
 /* For Samsung Galaxy S8+ */
 @media screen and (max-width:360px) {
-    
+    #Frist_hero_header{
+        font-size: 1.5rem;
+    }
+    .hero_button{
+        width: 60%;
+    }
+    #footer_intro{
+        font-size: 30px;
+    }
+    #footer_paragraph{
+        font-size: 20px;
+    }
 }
 /* For Galaxy Z fold 5 */
 @media screen and (max-width:344px) {
-    
+    .dishes_headings{
+        font-size: 10px;
+    }
+    .dish_description1{
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    #add_moreDish{
+        font-size: 14px;
+        padding: 1px;
+    }
+    .login_div{
+        margin: 4rem 1.5rem;
+    }
 }
 /* For iphone 5/SE */
 @media screen and (max-width:320px) {

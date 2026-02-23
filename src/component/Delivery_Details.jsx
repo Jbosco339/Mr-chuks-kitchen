@@ -8,7 +8,7 @@ function Delivery_Details() {
             <h2 className='input_header'>Delivery Details</h2> <hr />
 
             <div id='address_div'>
-                <p id='home_addresses'>Home:123 Main Street, Victoria Island Lagos <br /> Apt 4B, Opposite Mega Plaza </p>
+                <p id='home_addresses'>Home:123 Main Street <br /> Victoria Island Lagos <br /> Apt 4B, Opposite Mega Plaza </p>
                 <Link className='chamgeAddress'>Change Address</Link>
             </div>
             <h3 className='input_header'>Delivery Time</h3>
