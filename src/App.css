@@ -13,11 +13,7 @@ body{
 #main_nav_divs{
   width: 100%;
 }
-/* .nav_contents{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-} */
+
 #navigation{
   width: 100%;
   margin: auto;
