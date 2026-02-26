@@ -42,7 +42,7 @@
 #select_box{
     width: 100%;
     padding: 5px;
-    border: 0.5px solid #fe7a41;
+    border: 0.5px solid #FF7A18;
     font-size: 17px;
 }
 
@@ -91,7 +91,7 @@
 }
 .popular_price{
     font-weight: 800;
-    color: #fe7a41;
+    color: #FF7A18;
 }
 .amala_Gbegiri{
     padding-top: 25px;
@@ -142,7 +142,7 @@
     padding: 0.5rem 1.5rem 0.5rem 1.5rem;
     border-radius: 5px;
     border: none;
-    background-color: #fe7a41;
+    background-color: #FF7A18;
     color: white;
     font-weight: 700;
     cursor: pointer;
@@ -164,8 +164,8 @@
     color: white;
 }
 #chuks_kitchen_footer{
-    color: #fe7a41;
-  font-family: Great Vibes, cursive;
+    color: #FF7A18;
+    font-family: Great Vibes, cursive;
 }
 #chuks_kit_paragraph{
     color: white;
@@ -251,7 +251,7 @@
 }
 
 .price_of_item{
-    color: #fe7a41;
+    color: #FF7A18;
 }
 .cancel{
     width: 30px;
@@ -342,7 +342,7 @@
 .Login_btn{
     padding: 12px;
     width: 18%;
-    background-color: #fe7a41;
+    background-color: #FF7A18;
     color: white;
     border: none;
     border-radius: 5px;
@@ -368,7 +368,7 @@
 }
 .deliver1{
     width: 50%;
-    background-color: #fe7a41;
+    background-color: #FF7A18;
     padding: 9px;
     text-align: center;
     color: white;
@@ -395,7 +395,7 @@
     width: 100%;
     padding: 11px;
     margin: 10px 0px;
-    background-color: #fe7a41;
+    background-color: #FF7A18;
     border: none;
     border-radius: 3px;
     color: white;
@@ -530,7 +530,7 @@
 #finalPayment_btn{
     width: 98%;
     padding: 8px;
-    background-color: #fe7a41;
+    background-color: #FF7A18;
     border: none;
     color: white;
     border-radius: 5px;
@@ -586,7 +586,7 @@
     padding: 12px;
     border-radius: 5px;
     border: none;
-    background-color: #fe7a41;
+    background-color: #FF7A18;
     color: white;
     cursor: pointer;
 }
@@ -698,11 +698,11 @@
     padding: 2rem 1rem 1rem 1rem;
 }
 .specialDish_price{
-    color: #fe7a41;
+    color: #FF7A18;
 }
 .specialDish_btn{
     padding: 0.5rem 1.5rem 0.5rem 1.5rem;
-    background-color: rgb(242, 119, 75);
+    background-color: #FF7A18;
     border: none;
     border-radius: 5px;
     color: white;
@@ -795,7 +795,7 @@
 #forgot_pass{
     float: right;
     font-size: 10px;
-    color: rgb(29, 114, 154);
+    color: #1E88E5;
 }
 .continue_button{
     width: 100%;
@@ -803,7 +803,7 @@
     border-radius: 5px;
     border: none;
     margin: 5px 0px;
-    background-color:rgb(255, 119, 0) ;
+    background-color: #FF7A18;
     color: white;
 }
 #continue_with{
@@ -828,7 +828,7 @@
     text-align: center;
 }
 #create_account22{
-    color: rgb(0, 106, 255);
+    color: #1E88E5;
     cursor: pointer;
 }
 .login_social_img{

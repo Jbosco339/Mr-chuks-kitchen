@@ -69,7 +69,7 @@ This project demonstrates my ability to:
 Author
 Name: Benjamin Adakole
 Role: Frontend Developer (Intern)
-Organization: TrueMinds Innovations Ltd
+Organization: TrueMinds Innovations Ltd.
 
 
 
